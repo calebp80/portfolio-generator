@@ -22,8 +22,8 @@ const generatePage = (name, github) => {
   `;
 };
 //console.log(name, github);
-console.log(generatePage('Caleb', 'calebp80'));
-fs.writeFile('index.html', generatePage(name, github), err => {
+//console.log(generatePage('Caleb', 'calebp80'));
+fs.writeFile('index.html', generatePage(caleb, github), err => {
   if (err) throw err;
   console.log('portfolio complete! Checkout index.html to see the output!');
 });
