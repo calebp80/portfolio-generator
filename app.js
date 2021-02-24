@@ -2,4 +2,4 @@
 //console.log(profileDataArgs);
 
 const generatePage = () => 'Name: Caleb, Github: calebp80';
-console.log(generatePage());
+
