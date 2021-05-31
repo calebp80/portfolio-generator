@@ -1,6 +1,4 @@
-module.exports = templateData => {
-    // destructure page data by section
-    const { projects, about, ...header } = templateData;
+ const { projects, about, ...header } = templateData;
   
     return `
     <!DOCTYPE html>
@@ -37,3 +35,5 @@ module.exports = templateData => {
     </html>
     `;
   };
+
+module.exports = generatePage;
