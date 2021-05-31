@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calebp80/portfolio-generator.git"
+    "url": "git+https://github.com/lernantino/portfolio-generator.git"
   },
-  "author": "",
+  "author": "lernantino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/calebp80/portfolio-generator/issues"
+    "url": "https://github.com/lernantino/portfolio-generator/issues"
   },
-  "homepage": "https://github.com/calebp80/portfolio-generator#readme",
+  "homepage": "https://github.com/lernantino/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.1.0"
   }
 }
